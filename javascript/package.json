@@ -8,6 +8,6 @@
     "lodash": "^4.17.20",
     "minimatch": "10.1.1",
     "dotenv": "16.6.1",
-    "langchain": "1.2.15"
+    "langchain": "1.2.26"
   }
 }

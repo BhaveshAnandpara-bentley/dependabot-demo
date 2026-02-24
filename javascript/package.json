@@ -6,7 +6,7 @@
   "dependencies": {
     "hot-formula-parser": "^3.0.0",
     "lodash": "^4.17.20",
-    "minimatch": "10.1.1",
+    "minimatch": "10.2.2",
     "dotenv": "16.6.1",
     "langchain": "1.2.15"
   }

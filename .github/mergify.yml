@@ -1,0 +1,21 @@
+defaults:
+  actions:
+    backport:
+      assignees:
+        - "{{ author }}"
+      title: "{{ title }}"
+      body: "{{ body }}"
+
+pull_request_rules:
+  - name: Auto backport merged release/current PRs to main
+    conditions:
+      - base = release/current
+      - merged
+    actions:
+      backport:
+        branches:
+          - main
+        labels:
+          - auto-backport
+          - from-release-current
+        ignore_conflicts: true

@@ -1,2 +1,7 @@
 Checking the mergify configuration file...
+<<<<<<< HEAD
 update2
+=======
+update
+added update
+>>>>>>> ab193a9 (changed added)

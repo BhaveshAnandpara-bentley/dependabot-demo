@@ -13,7 +13,7 @@ Dependabot :dependabot:!
 
 ### Enabling Security Updates
 
-- In your fork, click the **Settings** tabs
+- In your fork, click the **Settings** tab
 - In the left hand side navigation, click **Code security and analysis**
 - Enable **Dependabot security updates** or **Grouped security updates**
 - Dependabot will now start creating PRs for detected security vulnerabilities

@@ -3,7 +3,7 @@ defaults:
     backport:
       assignees:
         - "{{ author }}"
-      title: "{{ title }}"
+      title: "{{ title }} (backport #{{ number }}) [{{ destination_branch }}]"
       body: "{{ body }}"
 
 pull_request_rules:
